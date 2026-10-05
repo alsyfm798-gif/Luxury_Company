@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحة الحجز</title>
+</head>
+<center>
+    <a href="asee.html">🏠 الصفحة الرئيسية</a> | 
+    <a href="aseel2.html">🌍 العوه الى العروض والدول</a> | 
+    <a href="من نحن.html">ℹ️ من نحن</a> | 
+    <a href="تواصل معنا.html">📞 تواصل معنا</a>
+</center>
+<body style="background:linear-gradient(to bottom,#ebfaf5,#89f7fe,#66a6ff);">
+    <hr  width="50%">
+    <h2 align="center">✈️ حجز رحلة</h2>
+    <hr >
+
+    <center>
+    <form action="رسالة الشكر.html" method="post" dir="rtl" width="60%">
+
+        <p>
+            <label >الاسم الكامل:</label><br>
+            <input type="text" name="fullname" size="40" required>
+        </p>
+
+        <p>
+            <label>البريد الإلكتروني:</label><br>
+            <input type="email" name="email" size="40" required>
+        </p>
+
+        <p>
+            <label>رقم الهاتف:</label><br>
+            <input type="tel" name="phone" size="20" required>
+        </p>
+
+        <p>
+            <label>نوع الرحلة:</label><br>
+            <select name="trip_type" required>
+                <option value="">-- اختر نوع الرحلة --</option>
+                <option value="tourism">سياحة</option>
+                <option value="business">عمل</option>
+                <option value="umrah">عمرة</option>
+                <option value="honeymoon">شهر عسل</option>
+            </select>
+        </p>
+
+        <p>
+            <label>درجة السفر:</label><br>
+            <select name="class" required>
+                <option value="">-- اختر درجة السفر --</option>
+                <option value="economy">اقتصادية</option>
+                <option value="business">رجال أعمال</option>
+                <option value="first">درجة أولى</option>
+            </select>
+        </p>
+
+        <p>
+            <label>الدولة المراد زيارتها:</label><br>
+            <select name="country" required>
+                <option value="">-- اختر الدولة --</option>
+                <option value="France">السعودية</option>
+                <option value="Italy">اليمن</option>
+                <option value="Switzerland">الإمارات</option>
+                <option value="UAE">جزر المالديف</option>
+                <option value="Turkey">فرنسا</option>
+                <option value="USA">سويسرا</option>
+                <option value="Saudi">اليابان</option>
+            </select>
+        </p>
+
+        <p>
+            <label>المدينة / الوجهة داخل الدولة:</label><br>
+            <input type="text" name="destination" size="40" placeholder="مثال: صنعاء، جدة، باريس..." required>
+        </p>
+
+        <p>
+            <label>تاريخ المغادرة:</label><br>
+            <input type="date" name="departure_date" required>
+        </p>
+
+        <p>
+            <label>تاريخ العودة:</label><br>
+            <input type="date" name="return_date">
+        </p>
+
+        <p>
+            <label>عدد المسافرين:</label><br>
+            <input type="number" name="passengers" min="1" max="20" value="1">
+        </p>
+
+        <p>
+            <label>طريقة الدفع:</label><br>
+            <select name="payment" required>
+                <option value="">-- اختر طريقة الدفع --</option>
+                <option value="cash">💵 نقدي</option>
+                <option value="card">💳 بطاقة بنكية</option>
+                <option value="transfer">💻 تحويل إلكتروني</option>
+            </select>
+        </p>
+
+        <p>
+            <label>ملاحظات إضافية:</label><br>
+            <textarea name="notes" rows="4" cols="40" placeholder="اكتب أي تفاصيل إضافية..."></textarea>
+        </p>
+
+        <p align="center">
+            <input type="submit" value="تأكيد الحجز">
+            <input type="reset" value="إلغاء">
+        </p>
+
+    </form>
+    </center>
+    <center>
+    <a href="asee.html">🏠 الصفحة الرئيسية</a> | 
+    <a href="aseel2.html">🌍 العوه الى العروض والدول</a> | 
+    <a href="من نحن.html">ℹ️ من نحن</a> | 
+    <a href="تواصل معنا.html">📞 تواصل معنا</a>
+</center>
+<p align="center">جميع الحقوق محفوظة © شركة لاكسري ترافل 2025</p>
+</body>
+</html>
